@@ -13,7 +13,7 @@ set -eu
 # # (VM_NET_DHCP: It use MACVTAP which is not compatible with all configuration)
 
 : ${VM_NET_TAP:=''}
-: ${VM_NET_IP:='20.20.20.21'}
+: ${VM_NET_IP:='20.20.20.22'}
 : ${VM_NET_MAC:='00:11:32:2C:A7:85'}
 : ${VM_NET_DHCP:='N'}
 : ${VM_ENABLE_VIRTIO:='Y'}
